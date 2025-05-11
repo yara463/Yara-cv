@@ -1,0 +1,98 @@
+body {
+    background-color: #f5f2eb;
+    color: #3a3a3a;
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 20px;
+  }
+  
+  .container {
+    max-width: 650px;
+    margin: auto;
+    background: #fff;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0,0,0,0.1);
+  }
+  
+  .header {
+    background-color: #d3c9bb;
+    padding: 20px;
+    border-radius: 10px 10px 0 0;
+    text-align: center;
+  }
+  
+  img.logo {
+    width: 150px;
+    margin-bottom: 15px;
+  }
+  
+  h1 {
+    font-size: 2.2em;
+    font-family: 'Playfair Display', serif;
+    color: #333;
+  }
+  
+  .contact-info {
+    font-size: 1.2em;
+    margin-top: 10px;
+    text-align: center;
+  }
+  
+  .contact-info a {
+    color: #3a3a3a;
+    text-decoration: none;
+    margin: 0 10px;
+  }
+  
+  .contact-info a:hover {
+    text-decoration: underline;
+  }
+  
+  .section {
+    margin-bottom: 20px;
+    padding-bottom: 10px;
+    border-bottom: 1px solid #ddd;
+  }
+  
+  h2 {
+    font-size: 1.8em;
+    margin-bottom: 8px;
+    font-family: 'Playfair Display', serif;
+    display: flex;
+    align-items: center;
+    text-align: left;
+  }
+  
+  .section ul {
+    list-style-type: disc;
+    padding-left: 20px;
+    text-align: left;
+  }
+  
+  .certifications table {
+    width: 100%;
+    border-collapse: collapse;
+    margin-top: 10px;
+    text-align: left;
+    background-color: #f9f5f0;
+    border-radius: 10px;
+    overflow: hidden;
+  }
+  
+  .certifications th {
+    background-color: #bfa88c;
+    color: #ffffff;
+    padding: 12px;
+    text-align: left;
+  }
+  
+  .certifications td {
+    padding: 10px;
+    border: 1px solid #d3c9bb;
+    background-color: #f5f2eb;
+  }
+  
+  .certifications tr:hover {
+    background-color: #e8dcc4;
+  }
